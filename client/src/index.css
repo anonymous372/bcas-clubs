@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Mabry Pro';
+  src: local('Mabry Pro'), url('./fonts/mabry-regular-pro.ttf');
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mabry Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+a:hover {
+  color: var(--black);
+}
+
+li {
+  list-style-type: none;
+}
